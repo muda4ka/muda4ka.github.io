@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*.................................*/
+body {
+    background-color: darksalmon;
+}
+.page {
+    max-width: 1600px;
+    min-height: 100vh;
+    background-color: rgb(245, 210, 195);
+    margin: 0 auto;
+    padding: 50px 100px 50px;
+}
+.logo {
+width: 400px;
+transition: 1s;
+}
+.btn {
+    margin: 50px 0px;
+    padding: 10px 30px;
+    font-size: 30px;
+    color: rgb(225, 76, 168);
+    background-color: rgb(242, 239, 235);
+    border-radius: 15px;
+}
+.btn:hover {
+    /*border: 3px solid red; */
+    background-color: rgb(245, 34, 203);
+    color: crimson;
+}
+.btn:hover ~ .logo {
+transform: translate(300px, 100px); 
+/*transform: rotate(60deg);/*
+/*transform: scale(1); */
+/*transform: skew (-20den, -20den); */
+}
